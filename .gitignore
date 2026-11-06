@@ -1,0 +1,29 @@
+# dados — o bruto nunca entra aqui; só a base derivada é liberada
+data/raw/
+*.csv
+*.xlsx
+*.parquet
+!data/intraday_fraction.csv
+
+# local: só do autor
+_local/
+.env
+*.log
+
+# r
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+
+# relatório renderizado em html (o .md vai versionado)
+analysis/*.html
+
+# so
+.DS_Store
+Thumbs.db
+desktop.ini
+
